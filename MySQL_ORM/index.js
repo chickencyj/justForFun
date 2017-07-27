@@ -37,10 +37,10 @@ class MySqlORM {
   find(query) {
     /* 
     { 
-      $and: [
+      $and: {
         a: [], 
         b: []
-      ],
+      },
       select: a   // default: *
     }
     */
