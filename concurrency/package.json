@@ -1,0 +1,11 @@
+{
+  "name": "concurrency",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ioopsd",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
