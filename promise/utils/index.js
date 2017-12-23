@@ -1,4 +1,4 @@
-const toStringEqual = (obj, str) => Object.toString.call(obj) === str
+const toStringEqual = (obj, str) => Object.prototype.toString.call(obj) === str
 
 const isFunction = obj => toStringEqual(obj, '[object Function]')
 
